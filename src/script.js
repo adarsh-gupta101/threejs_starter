@@ -17,7 +17,7 @@ const geometry = new THREE.BoxGeometry();
 
 // Materials
 
-const material = new THREE.MeshBasicMaterial(alphaMap);
+const material = new THREE.MeshBasicMaterial();
 material.transparent = true;
 //material.color = new THREE.Color(0xffff00);
 
@@ -137,14 +137,6 @@ tick();
 
 
 
-function Car(Image){
-
-  <img src={Image}/>
-
-
-}
-
-<Car Image="🚗"/>
 
 
 
@@ -153,6 +145,3 @@ function Car(Image){
 
 
 
-
-
-🚗🏎🚙🚓🚘🚔
